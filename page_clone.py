@@ -20,6 +20,8 @@ def hello_world():
 
 #para linux
 os.system("gnome-terminal -- ./ngrok http 5000")
+#para windows
+#os.system("ngrok http 5000")
 
 
 app.run()
